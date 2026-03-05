@@ -1,21 +1,3 @@
-/*
-Leetcode 39 - Combination Sum
-Pattern: Backtracking / DFS (Combination)
-
-Idea:
-- Sort candidates to enable pruning.
-- Use DFS to try each candidate starting from index.
-- At each step:
-    - choose candidate
-    - reduce remaining sum
-    - recurse with same index (reuse allowed)
-    - backtrack
-- If remaining becomes 0 -> valid combination.
-- If candidate > remaining -> stop branch.
-
-Time Complexity: O(2^target) 
-Space Complexity: O(target)
-*/
 class Solution {
 private:
     vector<vector<int>> ans;
