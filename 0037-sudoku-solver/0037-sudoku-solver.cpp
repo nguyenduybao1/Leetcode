@@ -1,41 +1,65 @@
 class Solution {
 private:
-    bool isValid(vector<vector<char>>& board, int row, int col, char c){
+    bool row[9][10] = {false};
+    bool col[9][10] = {false};
+    bool box[9][10] = {false};
+
+    bool solve(vector<vector<char>>& board) {
+
         for(int i = 0; i < 9; i++){
-            if(board[row][i] == c){
-                return false;
-            }
-            if(board[i][col] == c){
-                return false;
-            }
-            if(board[3 * (row/3) + i/3][3 * (col/3) + i%3] == c){
-                return false;
+            for(int j = 0; j < 9; j++){
+
+                if(board[i][j] == '.'){
+
+                    for(int num = 1; num <= 9; num++){
+
+                        int b = (i/3)*3 + j/3;
+
+                        if(!row[i][num] && !col[j][num] && !box[b][num]){
+
+                            board[i][j] = num + '0';
+
+                            row[i][num] = true;
+                            col[j][num] = true;
+                            box[b][num] = true;
+
+                            if(solve(board))
+                                return true;
+
+                            board[i][j] = '.';
+
+                            row[i][num] = false;
+                            col[j][num] = false;
+                            box[b][num] = false;
+                        }
+                    }
+
+                    return false;
+                }
             }
         }
+
         return true;
     }
-    bool solve(vector<vector<char>>& board) {
-    for (int i = 0; i < 9; i++) {
-        for (int j = 0; j < 9; j++) {
-            if (board[i][j] == '.') {
-                for(char c = '1'; c <= '9'; c++){
-                    if(isValid(board, i, j, c)){
-                        board[i][j] = c;
 
-                        if(solve(board)){
-                        return true;
-                        }
-                        board[i][j] = '.';  
-                    }
-                }
-                    return false; // thử hết mà không được
+public:
+    void solveSudoku(vector<vector<char>>& board) {
+
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < 9; j++){
+
+                if(board[i][j] != '.'){
+
+                    int num = board[i][j] - '0';
+                    int b = (i/3)*3 + j/3;
+
+                    row[i][num] = true;
+                    col[j][num] = true;
+                    box[b][num] = true;
                 }
             }
         }
-        return true; // không còn ô trống → xong!
-    }
-public:
-    void solveSudoku(vector<vector<char>>& board) {
+
         solve(board);
     }
 };
