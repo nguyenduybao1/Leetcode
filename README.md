@@ -57,6 +57,7 @@ Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 | [0303-range-sum-query-immutable](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 | [0594-longest-harmonious-subsequence](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0594-longest-harmonious-subsequence) |
+| [0724-find-pivot-index](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0739-daily-temperatures) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1200-minimum-absolute-difference](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/1200-minimum-absolute-difference) |
@@ -337,4 +338,5 @@ Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0303-range-sum-query-immutable) |
+| [0724-find-pivot-index](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0724-find-pivot-index) |
 <!---LeetCode Topics End-->
