@@ -1,18 +1,3 @@
-/*
-Leetcode 2 - Add Two Numbers
-Pattern: Two Pointers / Linked List Simulation / Math (Carry)
-
-Idea:
-- Traverse both linked lists simultaneously.
-- Add current digits and carry.
-- Create a new node with (sum % 10).
-- Update carry = sum / 10.
-- Continue until both lists and carry are empty.
-
-Time Complexity: O(max(n, m))
-Space Complexity: O(max(n, m))
-*/
-
 /**
  * Definition for singly-linked list.
  * struct ListNode {
