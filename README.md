@@ -19,6 +19,7 @@ Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0015-3sum) |
@@ -144,6 +145,7 @@ Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -244,6 +246,7 @@ Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0169-majority-element](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0190-reverse-bits) |
 | [0347-top-k-frequent-elements](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
