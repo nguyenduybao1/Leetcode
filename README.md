@@ -39,6 +39,7 @@ Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 | [0047-permutations-ii](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0049-group-anagrams) |
+| [0055-jump-game](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0066-plus-one) |
@@ -203,6 +204,7 @@ Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 | ------- |
 | [0011-container-with-most-water](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0179-largest-number) |
 ## Trie
@@ -223,6 +225,7 @@ Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 | [0032-longest-valid-parentheses](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/nguyenduybao1/Leetcode-Practice/tree/master/0119-pascals-triangle-ii) |
