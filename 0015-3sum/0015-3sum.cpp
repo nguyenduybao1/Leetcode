@@ -1,16 +1,3 @@
-/*
-Leetcode 15 - 3Sum
-Pattern: Sorting + Two Pointers
-
-Idea:
-- Sort the array.
-- Fix one number nums[i].
-- Use two pointers (left, right) to find pairs that sum to -nums[i].
-- Skip duplicates to avoid repeated triplets.
-
-Time Complexity: O(n^2)
-Space Complexity: O(1)
-*/
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
