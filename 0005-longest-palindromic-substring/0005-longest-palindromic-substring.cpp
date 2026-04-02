@@ -1,16 +1,3 @@
-/*
-Leetcode 5 - Longest Palindromic Substring
-Pattern: TwoPointers(Expand Around Center)
-
-Idea:
-- For each index, expand from the center.
-- Check both odd and even length palindromes.
-- Expand while characters match.
-- Track the longest substring.
-
-Time Complexity: O(n²)
-Space Complexity: O(1)
-*/
 class Solution {
 public:
     string longestPalindrome(string s) {
