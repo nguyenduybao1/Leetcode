@@ -1,18 +1,3 @@
-/*
-Leetcode 21 - Merge two sorted lists
-Pattern: Linked List + TwoPointers
-
-Idea:
-- Use two pointers to compare both lists.
-- Always attach the smaller node to the result list.
-- Move the corresponding pointer forward.
-- When one list finishes, attach the remaining nodes.
-
-
-Time Complexity: O(n + m)
-Space Complexity: O(1)
-*/
-
 /**
  * Definition for singly-linked list.
  * struct ListNode {
