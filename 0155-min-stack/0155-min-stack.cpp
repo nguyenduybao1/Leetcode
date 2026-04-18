@@ -1,33 +1,3 @@
-/*
-Leetcod 155 - Min Stack
-Pattern: Stack 
-
-Idea:
-- Maintain current minimum (minEle).
-- If push value >= minEle -> push normally.
-- If push value < minEle -> encode previous min:
-    encoded = 2*val - minEle
-    update minEle = val
-- When popping:
-    if popped < minEle -> it was encoded
-    restore previous min:
-        minEle = 2*minEle - encoded
-- When top:
-    if top < minEle -> real value = minEle
-    else -> normal top
-
-Time Complexity: O(1)
-Space Complexity: O(1)
-*/
-
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack* obj = new MinStack();
- * obj->push(val);
- * obj->pop();
- * int param_3 = obj->top();
- * int param_4 = obj->getMin();
- */
 class MinStack {
     stack<long long> s; long long minEle;
 public:
@@ -44,3 +14,11 @@ public:
     int getMin() { return (int)minEle; }
 };
 
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack* obj = new MinStack();
+ * obj->push(val);
+ * obj->pop();
+ * int param_3 = obj->top();
+ * int param_4 = obj->getMin();
+ */
