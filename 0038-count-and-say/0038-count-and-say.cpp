@@ -1,16 +1,3 @@
-/*
-Leetcode 38 - Count and Say
-Pattern: String Simulation / Two Pointers
-
-Idea:
-- Start with "1".
-- For each iteration, scan the previous string and group consecutive identical digits.
-- Count how many times a digit appears and append "count + digit" to build the next string.
-- Repeat until reaching n.
-
-Time Complexity: O(n * 2ⁿ)
-Space Complexity: O(2ⁿ)
-*/
 class Solution {
 public:
     string countAndSay(int n) {
