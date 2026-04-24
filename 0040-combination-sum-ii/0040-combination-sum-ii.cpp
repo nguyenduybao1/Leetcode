@@ -1,17 +1,3 @@
-/*
-Leetcode 40 - Combination Sum II
-Pattern: Backtracking / DFS (Combination with duplicates)
-
-Idea:
-- Sort candidates.
-- DFS with start index and remaining sum.
-- Skip duplicates at same depth.
-- Recurse with i+1 (no reuse).
-- Stop when candidate > remain.
-
-Time Complexity: O(2^n)
-Space Complexity: O(n)
-*/
 class Solution {
 private:
     vector<vector<int>> ans;
