@@ -1,16 +1,3 @@
-/*
-Leetcode 22 - Generate Parenthesis
-Pattern: Backtracking(DFS)
-
-Idea:
-- Use backtracking to generate parentheses
-- Try adding '(' if open < n
-- Try adding ')' if close < open
-- When length == 2*n, add to result
-
-Time Complexity: O(4^n / sqrt(n))
-Space Complexity: O(n)
-*/
 class Solution {
 public:
     vector<string> res;
