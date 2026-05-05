@@ -38,4 +38,3 @@ public:
         return {findLeft(nums, target),findRight(nums, target)};
     }
 };
-
