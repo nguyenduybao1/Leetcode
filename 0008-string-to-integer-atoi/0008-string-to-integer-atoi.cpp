@@ -1,17 +1,3 @@
-/*
-Leetcode 8 - String to integer Atoi
-Pattern: Simulation / String Parsing
-
-Idea:
-- Skip leading spaces.
-- Check optional sign (+/-).
-- Read digits and build number.
-- Stop when non-digit appears.
-- Handle overflow using long or boundary checks.
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/
 class Solution {
 public:
     int myAtoi(string s) {
