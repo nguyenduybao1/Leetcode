@@ -1,16 +1,3 @@
-/*
-Leetcode 118 - Pascal's Triangle
-Pattern: Dynamic Programming
-
-Idea:
-- Each row starts and ends with 1.
-- Inner elements are the sum of two elements from the previous row:
-  triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j]
-- Build the triangle row by row from top to bottom.
-
-Time Complexity: O(n^2)
-Space Complexity: O(n^2)
-*/
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
