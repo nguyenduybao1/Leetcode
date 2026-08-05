@@ -8,7 +8,7 @@ public:
             if(mp.count(ans)){
                 return {mp[ans], i};
             }
-            mp[cur] = i;
+           mp[cur] = i;
         }
         return {};
     }
